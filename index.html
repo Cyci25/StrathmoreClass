@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Task App</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="shortcut icon" href="../Downloads/BAK Logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <header>
+            <h1 class="task_list_main">My Task App</h1>
+            <form name="task-form" id="new-task-form" class="new-tsk-form form-control" action="Post" method="post">
+                Full Name: <input id="new-task-input" name="new-task-input" type="text" placeholder="Full Name">
+                Type of Task: <input type="text" placeholder="Type the Task"> <br>
+                <input type="submit" value="Add task">
+            </form>
+
+        </header>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
