@@ -11,20 +11,49 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
 
-    <link rel="shortcut icon" href="../Downloads/BAK Logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../Devops Technology Logo.png" type="image/x-icon">
 </head>
 
 <body>
     <div class="jumbotron">
         <header>
             <h1 class="task_list_main">My Task App</h1>
+            <br>
             <form name="task-form" id="new-task-form" class="new-tsk-form form-control" action="Post" method="post">
-                Full Name: <input id="new-task-input" name="new-task-input" type="text" placeholder="Full Name">
-                Type of Task: <input type="text" placeholder="Type the Task"> <br>
-                <input type="submit" value="Add task">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="FormControlInputLabel" class="form-label">Full Name:</label>
+                            <input class="feild form-control" id="new-task-input" name="new-task-input" type="text"
+                                placeholder="Full Name">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="FormControlTextarea1" class="form-label">Type of Task:</label>
+                            <input class="feild form-control" type="text" placeholder="Type the Task">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                            <label for="FormControlTextarea1" class="form-label">Explain the Task Deatils:</label>
+                            <textarea class="feild form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <input class="btn btn-primary" type="submit" value="Add task">
+                <button class="btn btn-success"><a href="https://getbootstrap.com/docs/5.0/components/buttons/">
+                        Try me </a></button>
             </form>
-
+            <br>
         </header>
+        <main>
+            <section class="task-list">
+                <h2 class="tasks" id="tasks">My Current Task</h2>
+            </section>
+        </main>
     </div>
 
     <script src="./js/script.js"></script>
