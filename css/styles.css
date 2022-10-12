@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    min-height: auto;
+}
+
+body {
+    background-color: papayawhip;
+}
+
+h1, h2 {
+    color: rgb(99, 74, 6);
+    text-align: center;
+}
+
+h1:hover, h2:hover {
+    color: rgb(230, 171, 10);
+    text-align: center;
+    cursor: pointer;
+}
+
+.jumbotron {
+    margin: 50px;
+    padding: 20px;
+}
+
+.new-tsk-form {
+    padding: 50px;
+    background-color: rgb(247, 241, 236);
+    border-radius: 70px;
+
+}
+
+.feild {
+    margin: 20px;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+
+}
+
+button:hover{
+    transition: 0.4s;
+}
+
+/* rgb(248 237 237) */
